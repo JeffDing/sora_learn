@@ -7,6 +7,6 @@ YOUR_ACCESS_TOKEN = '8d4596a6-cd52-4557-84b0-85af535a8244'
 api = HubApi()
 api.login(YOUR_ACCESS_TOKEN)
 api.push_model(
-    model_id="JeffDing/TCM_DEMO", 
-    model_dir="/root/temp/ft-medqa/merged" # 本地模型目录，要求目录中必须包含configuration.json
+    model_id="JeffDing/TCM_1_8B", 
+    model_dir="/root/temp/TCM/merged" # 本地模型目录，要求目录中必须包含configuration.json
 )
